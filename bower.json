@@ -1,0 +1,9 @@
+{
+    "name": "playground",
+    "version": "0.0.0",
+    "appPath": "playground",
+    "testPath": "test",
+    "dependencies": {
+        "ariatemplates": ">=1.4.7"
+    }
+}

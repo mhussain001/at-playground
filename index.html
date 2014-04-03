@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+        <title>My Title</title>
+
+        <!-- load the framework entry point -->
+        <script type="text/javascript" src="/ariatemplates/src/aria/bootstrap.js"></script>
+        <script type="text/javascript" src="/ariatemplates/src/aria/css/atskin.js"></script>
+</head>
+<body>
+        <div id='container'></div>
+        <script type="text/javascript">
+                aria.core.DownloadMgr.updateRootMap({
+                    "playground": {"*" : Aria.rootFolderPath + "../../"}
+                });
+
+                Aria.loadTemplate({
+                        classpath:"playground.view.MyTemplate",
+                        div:"container",
+                        moduleCtrl: {classpath:"playground.MyController"}
+                });
+        </script>
+</body>
+</html>

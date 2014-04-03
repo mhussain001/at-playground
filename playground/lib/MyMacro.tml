@@ -1,0 +1,8 @@
+{Library {
+    $classpath : "playground.lib.MyMacro",
+    $hasScript : false
+}}
+    {macro sayHello(name)}
+        Hello, MyMacro!
+    {/macro}
+{/Library}
