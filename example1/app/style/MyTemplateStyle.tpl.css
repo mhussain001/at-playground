@@ -8,5 +8,19 @@
           width:100%; 
           background-color:#f8f8f8;
         }
+        div.thumb {
+          padding: 5px;
+          height: auto;
+          width: auto;
+          max-width: 300px;
+          max-height: 400px;
+          border: 2px solid #666;
+        }
+        img.thumb {
+          height: auto;
+          width: auto;
+          max-width: 300px;
+          max-height: 400px;
+        }
        {/macro}
 {/CSSTemplate}
